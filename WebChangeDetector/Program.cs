@@ -8,7 +8,7 @@ namespace WebChangeDetector
     class Program
     {
         static string TargetUrl = "https://swedroid.se/forum/threads/fyndtipstraden-amazon-se-inga-diskussioner.186347/";
-        static int CheckIntervall = 1000 * 10; //1000ms = 1s x 60 = 1min
+        static int CheckIntervall = 1000 * 60; //1000ms = 1s x 60 = 1min
         static void Main(string[] args)
         {
             Console.WriteLine("Running checks on " + TargetUrl);
